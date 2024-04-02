@@ -38,6 +38,10 @@ if (isset($_POST['brackets'])) {
     }
 
     $isValid = checkBrackets($brackets);
+
+    echo "<p>Введений рядок з дужками:</p>";
+    echo "<p>$brackets</p>";
+
     if ($isValid) {
         echo "<p>Рядок з дужками є коректним.</p>";
     } else {

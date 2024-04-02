@@ -22,7 +22,7 @@ if (isset($_POST['word'])) {
     }
 
     $reversedWord = reverseWord($word);
-    echo "<p>Обернене слово: $reversedWord</p>"; // на якомусь моменті виникає проблема з виведенням кирилиці
+    echo "<p>Обернене слово: $reversedWord</p>";
 }
 ?>
 </body>
